@@ -390,7 +390,7 @@ Puppet::Type.type(:local_security_policy).provide(:policy) do
             'reg_type' => '4',
             'type' => 'Registry Values',
       },
-      'System settings: Use Certificate Rules on WIndows Executables for Software Restriction Policies' => {
+      'System settings: Use Certificate Rules on Windows Executables for Software Restriction Policies' => {
           'name' => 'MACHINE\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers\AuthenticodeEnabled',
             'reg_type' => '4',
             'type' => 'Registry Values',

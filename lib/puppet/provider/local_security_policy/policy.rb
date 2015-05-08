@@ -60,7 +60,6 @@ Puppet::Type.type(:local_security_policy).provide(:policy) do
         'type' => 'System Access',
       },
       # Audit Policy Mappings
-
       'Audit account logon events' => {
         'name' => 'AuditAccountLogon',
         'type' => 'Event Audit',

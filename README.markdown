@@ -1,6 +1,6 @@
 # Puppet Local Security Policy 
 
-create by Paul Cannon at email paulscannon at gmail dot com 
+created by Paul Cannon at email paulscannon at gmail dot com 
 
 ## Local_security_policy features
 Configure, local security policy (LSP) for windows servers.  

@@ -400,7 +400,7 @@ Puppet::Type.type(:local_security_policy).provide(:policy) do
             'type' => 'Registry Values',
       },
       'Devices: Prevent users from installing printer drivers' => {
-          'name' => 'MACHINE\System\Microsoft\Windows\CurrentVersion\Policies\System\UndockWithoutLogon',
+          'name' => 'MACHINE\System\CurrentControlSet\Control\Print\Providers\LanMan Print Services\Servers\AddPrinterDrivers',
             'reg_type' => '4',
             'type' => 'Registry Values',
       },

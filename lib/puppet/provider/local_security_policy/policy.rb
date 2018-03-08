@@ -539,11 +539,6 @@ Puppet::Type.type(:local_security_policy).provide(:policy) do
             'reg_type' => '4',
             'type' => 'Registry Values',
       },
-      'Network access: Let Everyone permissions apply to anonymous users' => {
-          'name' => 'MACHINE\System\CurrentControlSet\Control\Lsa\EveryoneIncludesAnonymous',
-            'reg_type' => '4',
-            'type' => 'Registry Values',
-      },
       'Network access: Remotely accessible registry paths and sub-paths' => {
           'name' => 'MACHINE\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths\Machine',
             'reg_type' => '7',
@@ -583,9 +578,6 @@ Puppet::Type.type(:local_security_policy).provide(:policy) do
           'name' => 'MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\NTLMMinClientSec',
             'reg_type' => '4',
             'type' => 'Registry Values',
-      },
-      'Network access: Remotely accessible registry paths' => {
-          'name' => 'MACHINE\System\Current\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedExactPaths\Machine',
       },
     }
 
